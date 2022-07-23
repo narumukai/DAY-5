@@ -54,28 +54,7 @@ let result3=function(){
     console.log("Sum of all numbers: "+sum);  
 }
 
-//Return all the prime numbers in an array
 
-let result4=function(){
-    var Lenofarray=parseInt(prompt("Enter the length of array"));    
-    for (var i=0;i<Lenofarray;i++){    
-        arr.push(parseInt(prompt("Enter the Numbers till Exit")));        
-    }
-    for(var num=0;num<arr.length;i++){
-        //console.log("First loop",num);
-        if (num>1){
-            for (var j=2;j<num;j++){
-                console.log(num,j);
-
-            }
-        }
-
-    }
-   
-
-
-
-}
             
 //Return all the palindromes in an array
 
